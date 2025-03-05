@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Person</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    </div>
+    <div id="game-container">
+       
+        <img id="original-image" src="" alt="Person to guess">
+        <canvas id="flashlight-canvas"></canvas>
+        <div id="guess-section">
+            <input type="text" id="guess-input" placeholder="Enter your guess">
+            <button id="guess-button">Guess</button>
+            <p id="guess-result"></p>
+        </div>
+        <div id="score-section">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div id="game-controls">
+            <button id="next-button">Next Person</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
